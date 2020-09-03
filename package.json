@@ -1,0 +1,27 @@
+{
+  "name": "SliceImageViewer",
+  "version": "0.1.0",
+  "description": "SliceImageViewer application build with Electron",
+  "author": {
+    "name": "Jeremy Dombrowski",
+    "email": "me@jeremyfelix.com"
+  },
+  "repository": {},
+  "dependencies": {},
+  "license": "ISC",
+  "devDependencies": {
+    "bozon": "1.0.7",
+    "jest": "26.4.2",
+    "spectron": "11.1.0"
+  },
+  "build": {
+    "appId": "com.electron.slice image viewer",
+    "win": {
+      "publish": null
+    },
+    "mac": {
+      "publish": null,
+      "category": "your.app.category.type"
+    }
+  }
+}
